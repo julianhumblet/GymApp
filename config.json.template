@@ -1,0 +1,15 @@
+{
+	"webserver": {
+		"port": ,
+		"apikey": "",
+		"secretsessionkey": "",
+		"sessionname": ""
+	},
+	"database": {
+		"host": "",
+		"port": ,
+		"username": "",
+		"Password": "",
+		"databasename": ""
+	}
+}
