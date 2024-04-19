@@ -7,5 +7,6 @@ func OpenFile(pathFile string) (*os.File, error) {
 	if err != nil {
 		return nil, err
 	}
+
 	return file, nil
 }
