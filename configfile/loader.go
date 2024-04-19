@@ -7,7 +7,6 @@ import (
 )
 
 func LoadConfig(pathConfigfile string) (*Config, error) {
-
 	if !filesystem.FileExists(pathConfigfile) {
 		return nil, fmt.Errorf("config file not found at: %s", pathConfigfile)
 	}
